@@ -6,10 +6,9 @@ export default function GlobalLayout({ children }: { children: ReactNode }) {
   return (
     <div className={style.container}>
       <header className={style.header}>
-        <Link href={"/"}>MING CINEMA</Link>
+        <Link href={"/"}>🎬 MING CINEMA</Link>
       </header>
       <main>{children}</main>
-      <footer>푸터</footer>
     </div>
   );
 }
